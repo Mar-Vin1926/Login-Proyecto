@@ -5,26 +5,25 @@
     justify-content: center;
     min-height: 100vh;
     background-image: url('/public/Font\ 1.jpg'); /* Reemplaza con la URL de tu imagen de fondo */
-    background-size: cover;
-    background-position: center;
-    color: #fff; /* Texto blanco para mejor contraste */
-    text-align: center; /* Centrar el texto */
-    padding: 20px; /* Añadir padding */
+    background: linear-gradient(to bottom, #363636, #000000);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
   }
   
   .login-form {
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    background-color: rgba(54, 54, 54, 0.8);
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    width: 400px; /* Aumentar el ancho */
-    margin-top: 20px; /* Añadir margen superior */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    margin-top: 20px;
+    border: 2px solid #ffc107; /* Marco amarillo */
   }
   
   .login-form h2 {
-    text-align: center;
+    font-size: 2em;
     margin-bottom: 30px;
-    font-size: 2em; /* Aumentar el tamaño del título */
   }
   
   .form-group {
@@ -33,36 +32,35 @@
   
   .form-group label {
     display: block;
+    font-size: 1.1em;
     margin-bottom: 8px;
-    font-size: 1.1em; /* Aumentar el tamaño de la etiqueta */
   }
   
   .form-group input {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     border-radius: 6px;
-    font-size: 1em; /* Aumentar el tamaño del texto */
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para los inputs */
-    color: #333; /* Color del texto */
+    font-size: 1em;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
   }
   
   .login-form a {
     display: block;
     text-align: center;
+    font-size: 1em;
     margin-bottom: 20px;
+    color: #87ceeb;
     text-decoration: none;
-    color: #007bff;
-    font-size: 1em; /* Aumentar el tamaño del texto */
   }
   
   .login-form button {
     width: 100%;
     padding: 14px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 6px;
+    font-size: 1.1em;
+    border: none; /* Eliminar el contorno */
+    background-color: transparent; /* Fondo transparente */
+    color: #ffc107; /* Letras amarillas */
     cursor: pointer;
-    font-size: 1.1em; /* Aumentar el tamaño del texto */
   }
