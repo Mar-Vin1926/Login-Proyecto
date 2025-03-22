@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './LoginForm.css';   // Importing the CSS file
+import Button from './Button'; // Importa el componente Button
 
 function LoginForm() {
     const [email, setEmail] = useState("");
@@ -38,7 +39,7 @@ function LoginForm() {
                                 />
                             </div>
                             <a href="/forgot-password">¿Olvidaste tu contraseña?</a>
-                            <button type="submit">Ingresar</button>
+                            <Button type="submit">Ingresar</Button> {/* Usa el componente Button */}
                         </form>
                     </div>
                 </div>

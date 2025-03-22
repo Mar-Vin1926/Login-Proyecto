@@ -55,12 +55,4 @@
     text-decoration: none;
   }
   
-  .login-form button {
-    width: 100%;
-    padding: 14px;
-    font-size: 1.1em;
-    border: none; /* Eliminar el contorno */
-    background-color: transparent; /* Fondo transparente */
-    color: #ffc107; /* Letras amarillas */
-    cursor: pointer;
-  }
+  
