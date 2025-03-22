@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-image: url('/public/Font\ 1.jpg'); /* Ruta a la imagen de fondo */
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url('/public/Font\ 1.jpg'); 
   background-size: cover;
   background-position: center;
   color: #ffffff; /* Color del texto para que sea legible sobre la imagen */
