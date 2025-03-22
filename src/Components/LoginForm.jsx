@@ -18,7 +18,7 @@ function LoginForm() {
             <h1>¡Bienvenido a EvaluApp: Zona de exámenes!</h1>
             <p>Sube tu nivel de conocimento con EvaluApp. Plataforma para crear y tomar exámenes online Editorial. ¡Demuestra lo que sabes!</p>
             <div className="login-form">
-                <h2>Inicio Sesión</h2>
+                <h2>Iniciar Sesión</h2>
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
                         <label htmlFor="email">Email:</label>
@@ -27,6 +27,7 @@ function LoginForm() {
                             id="email"
                             value={email}
                             onChange={(event) => setEmail(event.target.value)}
+                            placeholder="Email"
                         />
                             </div>
                             <div className="form-group">
@@ -36,9 +37,11 @@ function LoginForm() {
                                     id="password"
                                     value={password}
                                     onChange={(event) => setPassword(event.target.value)}
+                                    placeholder="Password"                               
                                 />
                             </div>
                             <a href="/forgot-password">¿Olvidaste tu contraseña?</a>
+                            <a href="">Si no tienes cuenta, crea una</a>
                             <Button type="submit">Ingresar</Button> {/* Usa el componente Button */}
                         </form>
                     </div>
