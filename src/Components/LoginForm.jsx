@@ -21,8 +21,7 @@ function LoginForm() {
                 <h2>Iniciar Sesión</h2>
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
-                        <label htmlFor="email" className="Email">Email:</label>
-                        <input
+                    <label htmlFor="email" className="Email" style={{ display: 'block', textAlign: 'left' }}>Email:</label>                        <input
                             type="email"
                             id="email"
                             value={email}
@@ -32,8 +31,7 @@ function LoginForm() {
                         />
                             </div>
                             <div className="form-group">
-                                <label htmlFor="password">Password:</label>
-                                <input
+                            <label htmlFor="password" style={{ display: 'block', textAlign: 'left' }}>Password:</label>                                <input
                                     type="password"
                                     id="password"
                                     value={password}
