@@ -41,7 +41,9 @@ function LoginForm() {
                                     placeholder="Ingreasa tu contraseña"
                                 />
                             </div>
-                            <a href="/forgot-password" style={{display: 'block', textAlign: 'center', fontSize: '1em', marginBottom: '0px', color: '#ffc107', textDecoration: 'underline', }}>¿Olvidaste tu contraseña?</a>                       
+                            <a href="/forgot-password" style={{display: 'block', textAlign: 'center', fontSize: '1em', marginBottom: '0px', color: '#ffc107', textDecoration: 'underline', }}>¿Olvidaste tu contraseña?</a> <br />                      
+                            <a href="/forgot-password" style={{display: 'block', textAlign: 'center', fontSize: '1em', marginBottom: '0px', color: '#ffc107', textDecoration: 'underline', }}>Si no tienes cuenta, crea una</a> 
+                            <br />                      
                                  <Button type="submit">Irsar</Button> {/* Usa el componente Button */}
                         </form>
                     </div>
