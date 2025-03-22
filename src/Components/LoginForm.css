@@ -1,16 +1,16 @@
 .login-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background-image: url('/public/Font\ 1.jpg'); /* Reemplaza con la URL de tu imagen de fondo */
-    background: linear-gradient(to bottom, #363636, #000000);
-    color: #ffffff;
-    text-align: center;
-    padding: 20px;
-    border-radius: 15px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('/public/Font\ 1.jpg'); /* Ruta a la imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  color: #ffffff; /* Color del texto para que sea legible sobre la imagen */
+  text-align: center;
+  padding: 20px;
+}
   
   .login-form {
     background-color: rgba(54, 54, 54, 0.8);
