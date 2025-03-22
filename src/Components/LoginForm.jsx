@@ -21,8 +21,7 @@ function LoginForm() {
                 <h2>Iniciar Sesión</h2>
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
-                        <label htmlFor="email" className="Email">Email:</label>
-                        <input
+                    <label htmlFor="email" className="Email" style={{ display: 'block', textAlign: 'left' }}>Email:</label>                        <input
                             type="email"
                             id="email"
                             value={email}
@@ -32,8 +31,7 @@ function LoginForm() {
                         />
                             </div>
                             <div className="form-group">
-                                <label htmlFor="password">Password:</label>
-                                <input
+                            <label htmlFor="password" style={{ display: 'block', textAlign: 'left' }}>Password:</label>                                <input
                                     type="password"
                                     id="password"
                                     value={password}
@@ -41,10 +39,15 @@ function LoginForm() {
                                     placeholder="Ingreasa tu contraseña"
                                 />
                             </div>
+<<<<<<< HEAD
                             <a href="/forgot-password" style={{display: 'block', textAlign: 'center', fontSize: '1em', marginBottom: '0px', color: '#ffc107', textDecoration: 'underline', }}>¿Olvidaste tu contraseña?</a> <br />                      
                             <a href="/forgot-password" style={{display: 'block', textAlign: 'center', fontSize: '1em', marginBottom: '0px', color: '#ffc107', textDecoration: 'underline', }}>Si no tienes cuenta, crea una</a> 
                             <br />                      
                                  <Button type="submit">Irsar</Button> {/* Usa el componente Button */}
+=======
+                            <a href="/forgot-password" style={{display: 'block', textAlign: 'center', fontSize: '1em', marginBottom: '0px', color: '#ffc107', textDecoration: 'underline', }}>¿Olvidaste tu contraseña?</a>                       
+                               <br />  <Button type="submit">Ingresar</Button> {/* Usa el componente Button */}
+>>>>>>> b478ac2ae764c33366ae6b7cc41a4faa21cc4270
                         </form>
                     </div>
                 </div>
