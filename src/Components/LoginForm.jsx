@@ -8,26 +8,25 @@ function LoginForm() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        //Aqui se agrega la logica para enviar un formulario
+        //Aqui se agrega la logica para enviar un formularo
         console.log("Email: ", email);
         console.log("Password", password);
     };
 
     return (
         <div className="login-container">
-            <h1>¡Bienvenido a EvaluApp: Zona de exámenes!</h1>
+            <h1>!Bienvenido a EvaluApp: Zona de exámenes</h1>
             <p>Sube tu nivel de conocimento con EvaluApp. Plataforma para crear y tomar exámenes online Editorial. ¡Demuestra lo que sabes!</p>
             <div className="login-form">
-                <h2>Iniciar Sesión</h2>
+                <h2>Inicio Sesión</h2>
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
-                        <label htmlFor="email">Email:</label>
+                        <label htmlFor="email" className="Email">Email:</label>
                         <input
                             type="email"
                             id="email"
                             value={email}
                             onChange={(event) => setEmail(event.target.value)}
-                            placeholder="Email"
                         />
                             </div>
                             <div className="form-group">
@@ -40,9 +39,8 @@ function LoginForm() {
                                     placeholder="Password"                               
                                 />
                             </div>
-                            <a href="/forgot-password">¿Olvidaste tu contraseña?</a>
-                            <a href="">Si no tienes cuenta, crea una</a>
-                            <Button type="submit">Ingresar</Button> {/* Usa el componente Button */}
+                            <a href="/forgot-password" style={{display: 'block', textAlign: 'center', fontSize: '1em', marginBottom: '20px', color: '#ffc107', textDecoration: 'underline', }}>¿Olvidaste tu contraseña?</a>                       
+                                 <Button type="submit">Ingresar</Button> {/* Usa el componente Button */}
                         </form>
                     </div>
                 </div>
