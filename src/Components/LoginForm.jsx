@@ -21,12 +21,14 @@ function LoginForm() {
                 <h2>Inicio Sesión</h2>
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
-                        <label htmlFor="email" className="Email">Email:</label>
+                    <label htmlFor="email" className="email-label" style={{ position: 'relative', left: '-50px' }}>Email:</label>
                         <input
                             type="email"
                             id="email"
                             value={email}
                             onChange={(event) => setEmail(event.target.value)}
+                            placeholder="Ingresa tu Correo"
+
                         />
                             </div>
                             <div className="form-group">
@@ -36,11 +38,11 @@ function LoginForm() {
                                     id="password"
                                     value={password}
                                     onChange={(event) => setPassword(event.target.value)}
-                                    placeholder="Password"                               
+                                    placeholder="Ingreasa tu contraseña"
                                 />
                             </div>
-                            <a href="/forgot-password" style={{display: 'block', textAlign: 'center', fontSize: '1em', marginBottom: '20px', color: '#ffc107', textDecoration: 'underline', }}>¿Olvidaste tu contraseña?</a>                       
-                                 <Button type="submit">Ingresar</Button> {/* Usa el componente Button */}
+                            <a href="/forgot-password" style={{display: 'block', textAlign: 'center', fontSize: '1em', marginBottom: '0px', color: '#ffc107', textDecoration: 'underline', }}>¿Olvidaste tu contraseña?</a>                       
+                                 <Button type="submit">Irsar</Button> {/* Usa el componente Button */}
                         </form>
                     </div>
                 </div>
