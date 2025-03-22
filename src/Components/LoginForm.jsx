@@ -27,6 +27,7 @@ function LoginForm() {
                             id="email"
                             value={email}
                             onChange={(event) => setEmail(event.target.value)}
+                            placeholder="Ingresa tu Email"
                         />
                             </div>
                             <div className="form-group">
@@ -36,10 +37,12 @@ function LoginForm() {
                                     id="password"
                                     value={password}
                                     onChange={(event) => setPassword(event.target.value)}
-                                    placeholder="Password"                               
+                                    placeholder="Ingresa tu Password"                               
                                 />
                             </div>
-                            <a href="/forgot-password" style={{display: 'block', textAlign: 'center', fontSize: '1em', marginBottom: '20px', color: '#ffc107', textDecoration: 'underline', }}>¿Olvidaste tu contraseña?</a>                       
+                            <a href="/forgot-password" style={{display: 'block', textAlign: 'center', fontSize: '1em', marginBottom: '20px', color: '#ffc107', textDecoration: 'underline', }}>¿Olvidaste tu contraseña?</a>  
+                            <a href="/crear-cuenta" style={{display: 'block', textAlign: 'center', fontSize: '1em', marginBottom: '20px', color: '#ffc107', textDecoration: 'underline', }}>Si no tienes cuenta, crea una</a>  
+                                               
                                  <Button type="submit">Ingresar</Button> {/* Usa el componente Button */}
                         </form>
                     </div>
