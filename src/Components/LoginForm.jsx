@@ -40,7 +40,7 @@ function LoginForm() {
                                 />
                             </div>
                             <a href="/forgot-password" style={{display: 'block', textAlign: 'center', fontSize: '1em', marginBottom: '0px', color: '#ffc107', textDecoration: 'underline', }}>¿Olvidaste tu contraseña?</a>                       
-                                 <Button type="submit">Irsar</Button> {/* Usa el componente Button */}
+                               <br />  <Button type="submit">Ingresar</Button> {/* Usa el componente Button */}
                         </form>
                     </div>
                 </div>
