@@ -8,14 +8,14 @@ function LoginForm() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        //Aqui se agrega la logica para enviar un formularo
+        //Aqui se agrega la logica para enviar un formulario
         console.log("Email: ", email);
         console.log("Password", password);
     };
 
     return (
         <div className="login-container">
-            <h1>!Bienvenido a EvaluApp: Zona de exámenes</h1>
+            <h1>¡Bienvenido a EvaluApp: Zona de exámenes!</h1>
             <p>Sube tu nivel de conocimento con EvaluApp. Plataforma para crear y tomar exámenes online Editorial. ¡Demuestra lo que sabes!</p>
             <div className="login-form">
                 <h2>Inicio Sesión</h2>
