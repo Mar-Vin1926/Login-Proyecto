@@ -18,7 +18,7 @@ function LoginForm() {
             <h1>!Bienvenido a EvaluApp: Zona de exámenes</h1>
             <p>Sube tu nivel de conocimento con EvaluApp. Plataforma para crear y tomar exámenes online Editorial. ¡Demuestra lo que sabes!</p>
             <div className="login-form">
-                <h2>Inicio Sesión</h2>
+                <h2>Iniciar Sesión</h2>
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
                         <label htmlFor="email" className="Email">Email:</label>
