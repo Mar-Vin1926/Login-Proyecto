@@ -21,7 +21,7 @@ function LoginForm() {
                 <h2>Inicio Sesión</h2>
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
-                    <label htmlFor="email" className="email-label" style={{ position: 'relative', left: '-50px' }}>Email:</label>
+                        <label htmlFor="email" className="Email">Email:</label>
                         <input
                             type="email"
                             id="email"
